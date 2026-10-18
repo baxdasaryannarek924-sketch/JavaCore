@@ -4,25 +4,25 @@ public class ArrayUtil {
     static void main() {
         int[] numbers = {1, 6, 3, 9, 15, 52, -3, 5, 8};
 
-//        Խնդիր 1 — Տպել զանգվածի բոլոր էլեմենտները
+//        Խնդիր 1
         for (int i = 0; i < numbers.length; i++) {
             System.out.print(numbers[i] + " ");
         }
 
         System.out.println();
-//        Խնդիր 2 — Տպել առաջին էլեմենտը
+//        Խնդիր 2
         System.out.println("First element: " + numbers[0]);
 
         System.out.println();
-//        Խնդիր 3 — Տպել վերջին էլեմենտը
+//        Խնդիր 3
         System.out.println("Last element: " + numbers[numbers.length - 1]);
 
         System.out.println();
-//        Խնդիր 4 — Տպել զանգվածի երկարությունը
+//        Խնդիր 4
         System.out.println("Array length: " + numbers.length);
 
         System.out.println();
-//        Խնդիր 5 — Գտնել ամենափոքր թիվը
+//        Խնդիր 5
         int min = numbers[0];
         for (int i = 1; i < numbers.length; i++) {
             if (numbers[i] < min) {
@@ -32,7 +32,7 @@ public class ArrayUtil {
         System.out.println("Minimum number: " + min);
 
         System.out.println();
-//        Խնդիր 6 — Տպել զանգվածի մեջտեղի էլեմենտը կամ էլեմենտները
+//        Խնդիր 6
         if (numbers.length <= 2) {
             System.out.println("Can't print middle values");
         } else if (numbers.length % 2 != 0) {
@@ -42,7 +42,7 @@ public class ArrayUtil {
         }
 
         System.out.println();
-//        Խնդիր 7 — Հաշվել զույգ թվերի քանակը
+//        Խնդիր 7
         int evens = 0;
         for (int i = 0; i < numbers.length; i++) {
             if (numbers[i] % 2 == 0) {
@@ -52,7 +52,7 @@ public class ArrayUtil {
         System.out.println("Even numbers count: " + evens);
 
         System.out.println();
-//        Խնդիր 8 — Հաշվել կենտ թվերի քանակը
+//        Խնդիր 8
         int odds = 0;
         for (int i = 0; i < numbers.length; i++) {
             if (numbers[i] % 2 != 0) {
@@ -62,7 +62,7 @@ public class ArrayUtil {
         System.out.println("Odd numbers count: " + odds);
 
         System.out.println();
-//        Խնդիր 9 — Հաշվել զանգվածի էլեմենտների գումարը
+//        Խնդիր 9
         int sum = 0;
         for (int i = 0; i < numbers.length; i++) {
             sum += numbers[i];
@@ -70,7 +70,7 @@ public class ArrayUtil {
         System.out.println("Sum: " + sum);
 
         System.out.println();
-//        Խնդիր 10 — Հաշվել միջին թվաբանականը
+//        Խնդիր 10
         double sumAll = 0;
         for (int i = 0; i < numbers.length; i++) {
             sumAll += numbers[i];

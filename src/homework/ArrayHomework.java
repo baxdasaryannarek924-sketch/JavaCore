@@ -2,7 +2,7 @@ package homework;
 
 public class ArrayHomework {
     static void main() {
-//      Խնդիր 1 — Հաշվել տվյալ թվի հանդիպումների քանակը
+//      Խնդիր 1
         int[] numbers = {6, 3, 8, 6, 1, 9, 6, 4, 2, 6};
         int n = 6;
         int count = 0;
@@ -14,7 +14,7 @@ public class ArrayHomework {
         System.out.println("Count of " + n + ": "  + count);
 
         System.out.println();
-//      Խնդիր 2 — Շրջել զանգվածի էլեմենտների հերթականությունը
+//      Խնդիր 2
         int[] nums = {1, 5, 8, 3, 9, 2, 7, 4, 6, 10};
         for (int i = 0; i < nums.length; i++) {
             System.out.print(nums[i] + " ");
@@ -33,7 +33,7 @@ public class ArrayHomework {
         System.out.println();
         System.out.println();
 
-//      Խնդիր 3 — Հաշվել կրկնվող թվերի քանակը
+//      Խնդիր 3
         int[] numbers2 = {3, 6, 8, 3, 9, 6, 2, 3, 5, 6};
         int totalRepeated = 0;
         for (int i = 0; i < numbers2.length; i++) {
@@ -60,7 +60,7 @@ public class ArrayHomework {
 
         System.out.println();
 
-//      Խնդիր 4 — Հաշվել ձայնավորների քանակը
+//      Խնդիր 4
         char[] chars = {'բ', 'ա', 'ր', 'և', 'ա', 'շ', 'խ', 'ա', 'ր', 'հ'};
         char[] vowels = {'ա', 'ե', 'է', 'ը', 'ի', 'ո', 'օ'};
         int vowelsCount = 0;
