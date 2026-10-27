@@ -1,0 +1,71 @@
+package homeworks;
+
+public class Homework2 {
+    static void main() {
+        for (int i = 1; i < 6; i++) {
+            for (int j = 0; j < i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+        System.out.println();
+
+        for (int i = 5; i > 0; i--) {
+            for (int j = 0; j < i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+        System.out.println();
+
+        for (int i = 1; i < 6; i++) {
+            for (int j = 0; j < 5 - i; j++) {
+                System.out.print("  ");
+            }
+
+            for (int k = 0; k < i; k++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+        System.out.println();
+
+        for (int i = 5; i > 0; i--) {
+            for (int j = 0; j < 5 - i; j++) {
+                System.out.print("  ");
+            }
+
+            for (int k = 0; k < i; k++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+        System.out.println();
+
+        for (int i = 1; i < 6; i++) {
+            for (int j = 0; j < 5 - i; j++) {
+                System.out.print(" ");
+            }
+
+            for (int k = 0; k < i; k++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+        for (int i = 4; i >= 1; i--) {
+            for (int j = 0; j < 5 - i; j++) {
+                System.out.print(" ");
+            }
+
+            for (int k = 0; k < i; k++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
