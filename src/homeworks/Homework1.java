@@ -1,7 +1,5 @@
 package homeworks;
 
-import java.sql.SQLOutput;
-
 public class Homework1 {
     static void main() {
         int x = 10;
