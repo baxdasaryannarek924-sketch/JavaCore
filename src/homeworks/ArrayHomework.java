@@ -1,4 +1,4 @@
-package homework;
+package homeworks;
 
 public class ArrayHomework {
     static void main() {
