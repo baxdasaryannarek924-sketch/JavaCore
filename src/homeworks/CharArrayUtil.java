@@ -1,7 +1,7 @@
 package homeworks;
 
 public class CharArrayUtil {
-    public static void main(String[] args) {
+    static void main() {
         char[] chars = {
                 'J', 'a', 'v', 'a', ' ',
                 'i', 's', ' ', 'f', 'u', 'n', '!'
